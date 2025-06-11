@@ -16,7 +16,8 @@ export default function Contact() {
           </p>
 
           {/* Contact Form Structure (Styling Only) */}
-          <form className="space-y-6">
+          <form action="https://formspree.io/f/xrbkqboz"
+            method="POST" className="space-y-6">
             <div>
               <label
                 htmlFor="name"
@@ -43,7 +44,7 @@ export default function Contact() {
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="_replyto"
                 required
                 className="shadow appearance-none border rounded w-full py-3 px-4 text-gray-800 leading-tight focus:outline-none focus:shadow-outline bg-white/80 focus:bg-white transition duration-200"
                 placeholder="email@example.com"
